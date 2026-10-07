@@ -14,3 +14,11 @@ let totCost= (price, quantity) => {
     return price * quantity;
 }
 console.log(totCost(34,23))
+
+
+let laptop = {name:"Dell",model:"V16",price:100,quantity:27};
+
+function details(laptop2){
+    console.log(laptop2.model);
+}
+details(laptop)
