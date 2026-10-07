@@ -22,3 +22,9 @@ function details(laptop2){
     console.log(laptop2.model);
 }
 details(laptop)
+
+let me = {name:"Andile",amount:500};
+function buy(me1){
+    console.log(me1);
+}
+buy(me);
