@@ -9,3 +9,8 @@ let cars = [
 ]
 
 console.log(cars[1].brand)
+
+let totCost= (price, quantity) => {
+    return price * quantity;
+}
+console.log(totCost(34,23))
